@@ -1,0 +1,15 @@
+{
+  "name": "heic-to-jpg-converter",
+  "version": "1.0.0",
+  "description": "HEIC to JPG converter using squoosh-cli",
+  "main": "convert.js",
+  "bin": {
+    "heic-to-jpg": "./convert.js"
+  },
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "dependencies": {
+    "@squoosh/cli": "^0.0.0" 
+  }
+}
